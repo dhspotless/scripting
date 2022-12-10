@@ -1,13 +1,4 @@
 
-
-
-
-
-
-
-
-
-
 // let items = [20 , 30, 40, 50, 100]
 
 
@@ -154,14 +145,52 @@
 // OR
 
 
-let dollars2 = [0, 10, 20];
+// let dollars2 = [0, 10, 20];
 
-let cent = [];
+// let cent = [];
 
-for (let i = 0; i < dollars2.length; i++){
-    cent.push(dollars2[i] * 100)
-}
+// for (let i = 0; i < dollars2.length; i++){
+//     cent.push(dollars2[i] * 100)
+// }
 
-console.log(cent)
+// console.log(cent)
+
+
+// let cents = []
+// for( let dollar of dollars){
+//     cents.push(dollar * 100)
+   
+// }
+// console.log(cents)
+
+
+// let cents = []
+
+// for(let i = 0; i < dollars.length; i++){
+//     cents.push(dollars[i] * 100)
+// }
+
+// console.log(cents)
+
+
+// let dollars = [1, 5, 10, 3]
+
+
+// let cents = dollars.map((element) => {
+//    return element * 100
+// })
+
+// console.log(cents)
+
+
+// let dollars2 = [0, 10, 20]
+
+// let cent2 = dollars2.map ((element2) => {
+//     console.log(element2)
+//     return element2 * 100
+// })
+
+// console.log(cent2)
+
 
 
