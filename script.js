@@ -194,3 +194,40 @@
 
 
 
+
+let userId = [{
+    userName: 'Wisdom',
+    userLastName: 'Samuel',
+    Email: 'liki@gmail.com',
+    password: 'test123',
+    userDiscord: 'Techbywes',
+    userSubscriptionStatus: 'VIP',
+    userBillingInformation: '9991 ajaka',
+    lessonsComplted: [0, 1]
+}, 
+{
+    userName: 'Ebuka',
+    userLastName: 'sam',
+    Email: 'sally@gmail.com',
+    password: 'sally123',
+    userDiscord: 'wes00',
+    userSubscriptionStatus: 'VIP',
+    userBillingInformation: 'ajaka',
+    lessonsComplted: [0, 1, 2, 3]
+},
+
+];
+
+// console.log(userId[0].lessonsComplted.map (Element => Element * 2))
+
+function login(email, password){
+    for ( let i = 0; i < userId.length; i++){
+        console.log(userId[i])
+    }
+
+}
+login('sally@gmail.com', 'text123')
+
+
+
+// OBJECTS ENDS HERE
