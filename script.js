@@ -2,7 +2,6 @@
 // let items = [20 , 30, 40, 50, 100]
 
 
-
 //  let newArray = items.filter ((element) => {
 //     // console.log(element)
 //     if (element < 50) {
@@ -195,39 +194,91 @@
 
 
 
-let userId = [{
-    userName: 'Wisdom',
-    userLastName: 'Samuel',
-    Email: 'liki@gmail.com',
-    password: 'test123',
-    userDiscord: 'Techbywes',
-    userSubscriptionStatus: 'VIP',
-    userBillingInformation: '9991 ajaka',
-    lessonsComplted: [0, 1]
-}, 
-{
-    userName: 'Ebuka',
-    userLastName: 'sam',
-    Email: 'sally@gmail.com',
-    password: 'sally123',
-    userDiscord: 'wes00',
-    userSubscriptionStatus: 'VIP',
-    userBillingInformation: 'ajaka',
-    lessonsComplted: [0, 1, 2, 3]
-},
+// let userId = [{
+//     userName: 'Wisdom',
+//     userLastName: 'Samuel',
+//     Email: 'liki@gmail.com',
+//     password: 'test123',
+//     userDiscord: 'Techbywes',
+//     userSubscriptionStatus: 'VIP',
+//     userBillingInformation: '9991 ajaka',
+//     lessonsComplted: [0, 1]
+// }, 
+// {
+//     userName: 'Ebuka',
+//     userLastName: 'sam',
+//     email: 'sally@gmail.com',
+//     password2: 'sally123',
+//     userDiscord: 'wes00',
+//     userSubscriptionStatus: 'VIP',
+//     userBillingInformation: 'ajaka',
+//     lessonsComplted: [0, 1, 2, 3]
+// },
 
-];
+// ];
 
 // console.log(userId[0].lessonsComplted.map (Element => Element * 2))
 
-function login(email, password){
-    for ( let i = 0; i < userId.length; i++){
-        console.log(userId[i])
-    }
+// function login(email, password2){
+//     for ( let i = 0; i < userId.length; i++){
+        
+//         if(userId[i].email === email){
+//             console.log(userId[i])
+//         }if (userId[i].password2 === password2){
+//             console.log('log the user in the details are correct')
+//         }else{
+//            console.log( 'password is incorrect')
+//         }
+//         return
+//     }
+    
+// }
+// login('sally@gmail.com', 'sally123')
+// let userId = [{
+//     userName: 'Wisdom',
+//     email: 'liki@gmail.com',
+//     password: 'test123',
+//     subscriptionStatus: 'VIP',
+//     discordId: 'Techbywes',
+//     lessonsComplted: [0, 1]
+// },]
 
+
+// function register (user){
+// userId.push(user)
+   
+// }
+
+// register({
+//     userName:'sam',
+//     email:'liki@gmail.com',
+//     password: 'test123',
+//     subscriptionStatus:'VIP',
+//     discordId: 'Techbywes', 
+//     lessonsComplted:[0, 1]})
+// console.log(userId)
+
+
+
+// DOM MANIPULATION STARTS HERE
+
+// document.querySelector('body').style.display = 'none'
+
+
+// document.getElementById("title-el").textContent = ('greatful')
+// document.querySelector('#title2').textContent = ('i am blessed')
+// document.querySelector('.title3').textContent = ('we won')
+
+
+
+
+function changeTitleToRed() {
+    document.querySelector('#title').style.color = 'red'
+   
 }
-login('sally@gmail.com', 'text123')
-
-
-
+// DOM MANIPULATION ENDS HERE
 // OBJECTS ENDS HERE
+
+function resetEl(){
+    document.querySelector('#title').style.color = ''
+}
