@@ -272,13 +272,20 @@
 
 
 
-function changeTitleToRed() {
-    document.querySelector('#title').style.color = 'red'
+// function changeTitleToRed() {
+//     document.querySelector('#title').style.color = 'red'
    
-}
-// DOM MANIPULATION ENDS HERE
-// OBJECTS ENDS HERE
+// }
+// // DOM MANIPULATION ENDS HERE
+// // OBJECTS ENDS HERE
 
-function resetEl(){
-    document.querySelector('#title').style.color = ''
+// function toogleDarkMood(){
+//     document.querySelector('#title').style.color = 'black'
+// }
+
+
+
+function toogleDarkMood(){
+    document.querySelector('body').classList.toggle('dark-theme')
 }
+
